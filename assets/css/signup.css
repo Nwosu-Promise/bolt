@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../img/pexels-photo-280014.jpeg");
+    /* background-repeat: round; */
+    background-blend-mode: darken;
+    /* background-image: url("../img/man.jpg"); */
+    background-size: cover;
+    /* background-size: cover; */
+    background-position: center;
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100%;
+}
+
+.signup {
+    width: 320px;
+    height: 0px;
+    background: rgb(87, 77, 77);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 15px;
+
+}
+
+.signup {
+    width: 320px;
+    height: 420px;
+    background: rgb(87, 77, 77);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 15px;
+
+}
+.avatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+ .signup p{
+     margin: 0;
+     padding: 0;
+     font-weight: bold;
+ }
+
+ .signup input{
+     width: 100%;
+     margin-bottom: 15px;
+ }
+
+ .signup input[type = "text"], input[type ="password"], input[type = "email"]{
+     border: none;
+     border-bottom: 1px solid #fff;
+     background: transparent;
+     outline: darkslategrey;
+     height: 40px;
+     color: dimgray;
+ }
+
+ .signup input[type = "submit"]{
+     border: none;
+     outline: none;
+     height: 40px;
+     background: dimgray;
+     color: rgb(70, 66, 66);
+     font-size: 18px;
+     border-radius: 20px; 
+ }
+
+.signup input[type = "submit"]:hover
+ {
+     cursor: pointer;
+     background: gray;
+
+ }
+
+  .signup a {
+     text-decoration: none;
+     font-size: 12px;
+     line-height: 20px;
+     color: rgb(32, 30, 30);
+ }
+
+  .signup a:hover {
+    color: rgb(26, 21, 21);
+}
